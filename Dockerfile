@@ -1,4 +1,4 @@
-FROM wordpress:php8.2-apache
+FROM wordpress:php8.1-apache
 
 # PHP settings for uploads and performance
 RUN echo "upload_max_filesize = 128M\n\
